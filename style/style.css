@@ -217,6 +217,7 @@ main > section {
 .image-name {
     font-size: 1.75rem;
     font-weight: 600;
+    margin: auto;
 }
 .image-description {
     font-size: 0.8rem;
@@ -243,7 +244,7 @@ main > section {
     color: #6c6c6c;
 }
 footer {
-    min-width: 100%;
+    max-width: 100%;
     height: 200px;
     background-color: #000000;
     margin-top: 100px;
