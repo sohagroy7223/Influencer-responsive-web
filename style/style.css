@@ -237,7 +237,7 @@ main > section {
     color: #0a0826;
     margin: auto;
 }
-.Featured-container {
+.Featured-description {
     max-width: 500px;
     font-size: 1rem;
     font-weight: bold;
@@ -264,4 +264,62 @@ footer {
     background-color: #d9dbe1;
     padding: 5px;
     margin-top: 17px;
+}
+.hide {
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    section {
+        margin-top: 50px;
+    }
+    .head-container {
+        flex-direction: column-reverse;
+    }
+    .start-journey {
+        text-align: center;
+        max-width: 440px;
+        margin-top: 14px;
+    }
+    .section-title {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .section-description {
+        font-size: 0.8rem;
+        font-weight: 600px;
+    }
+    .companis {
+        max-width: 275px;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        gap: 20px;
+    }
+    .products-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .Featured {
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Featured-product {
+        max-width: 329px;
+        text-align: center;
+
+        justify-content: center;
+    }
+    .Featured-title {
+        max-width: 311px;
+        font-size: 1.81rem;
+        font-weight: bold;
+    }
+    .Featured-description {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    footer {
+        max-width: 100%;
+    }
 }
